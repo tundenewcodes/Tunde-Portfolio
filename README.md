@@ -8,6 +8,6 @@ This is my portfolio landing page that shows my current tech stack, live project
 
 ## Run it locally
 
-- You can run this application locally on your computer by cloning this repository, installing the dependencies and starting it.
+- You can run this application locally on your computer by cloning this repository (run git clone https://github.com/tundenewcodes/Tunde-Portfolio.git ) in your terminal, installing the dependencies and starting it on your terminal by running npm start. You can also view it from the hosted platform, render, by visiting this page - https://tunde-dev.onrender.com
 - This project was built with Javascript, React,  and bootstrap with excellent user experience and ease of navigation around the project
 

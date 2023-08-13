@@ -1,7 +1,7 @@
 import { AiOutlineMail, AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
-import Icons from "../footer/components/Icons";
+import Icons from "../footer/Icons";
 
 
 
@@ -12,7 +12,7 @@ const IconDiv = ({showFollow}) => {
       data-aos="fade-up"
       data-aos-once="true"
     >
-     {showFollow &&  <div className="py-3" style={{color:"white"}}>Follow Me:</div>}
+     {showFollow &&  <div className="py-3" style={{color:"white"}}>Reach Out to Me:</div>}
       <div
         className="d-flex gap-5"
       >

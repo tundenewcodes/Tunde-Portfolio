@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="footer">
             <div className="copywrite">
               <p style={{
-                fontSize:"1rem"
+                fontSize:"1rem", textAlign:"center"
               }}>
                 © {new Date().getFullYear()} All rights reserved | Made with ❤️
                 by Tunde Fadipe
