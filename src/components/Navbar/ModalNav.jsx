@@ -31,14 +31,14 @@ const ModalNav = ({
      style={{margin:"16px 0"}}  
       >
         <a
-          href="https://www.dropbox.com/scl/fi/uo3bg3yue6246jte708uc/TUNDE-CV.pdf?rlkey=z2m7hplyqybd6ni5tbpv13gyn&dl=0"
+          href="https://www.dropbox.com/scl/fi/ryj2waxh2nnurg5m3t7ah/TUNDE_dev-CV.pdf?rlkey=8rls6856v56g2qo8vzhy56e0b&dl=0"
           hrefLang="en-us"
           target="_blank"
           rel="noopener noreferrer"
           download
         >
           <ButtonComponent
-            text={"View CV"}
+            text={"Download CV"}
             style={{
               fontSize: "12px",
             }}

@@ -54,9 +54,14 @@ const Contact = () => {
               xs={{ span: 12, order: 2 }}
               md={{ span: 6, order: 2 }}
               lg={{ span: 6, order: 2 }}
-              className=""
+              className="border border-danger" 
             >
-              <FormComponent />
+              <div style={{
+                width:"90%"
+              }}>
+<FormComponent />
+              </div>
+              
             </Col>
           </Row>
         </Container>
