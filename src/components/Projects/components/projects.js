@@ -100,7 +100,7 @@ export const liveProject = [
     imgSrc:
       "https://i.ibb.co/nfzBC5L/Logo.png",
     liveUrl: "https://hrtechish.com",
-    description: "An App developed for a startup that engages communities of HR Tech Professionals, HR Tech employees and employers",
+    description: "An App developed for a startup company that engages communities of HR Tech Professionals, HR Tech employees and employers",
     technologies: "ReactJs | Bootstrap |  Javascript",
   },
   {
