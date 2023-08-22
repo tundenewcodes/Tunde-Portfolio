@@ -5,6 +5,8 @@ import P from "../../utils/p/P";
 import LiveProject from "./components/LiveProject";
 import { liveProject } from "./components/projects";
 import { Colors } from "../../utils/colors/colors";
+import { useState } from "react";
+import { projects } from "./components/projects";
 const Projects = () => {
   const { successColor, whiteColor } = Colors();
   const projectCat = [
@@ -13,16 +15,37 @@ const Projects = () => {
     "Full-Stack Projects",
     "React-Native Projects",
   ];
+  const [myProjects, setMyProjects] = useState("All Projects");
+  const filteredProjects =
+    myProjects === "All Projects"
+      ? projects
+      : projects.filter((item) => item.type === myProjects);
+
+  const projectCategoryHandler = (item) => {
+    setMyProjects(item);
+    console.log(item);
+  };
+
+
+  console.log(filteredProjects);
+
+
   return (
-    
     <>
-      <section className="" id="projects"  style={{
-        marginTop:"100px"
-      }} >
+      <section
+        className=""
+        id="projects"
+        style={{
+          marginTop: "100px",
+        }}
+      >
         <Container className="projects my-5 ">
-          <Row className=" w-100   " style={{
-        marginTop:"100px"
-      }}>
+          <Row
+            className=" w-100   "
+            style={{
+              marginTop: "100px",
+            }}
+          >
             <div>
               <div className="d-flex flex-column justify-content-center align-items-center">
                 <Title
@@ -56,42 +79,46 @@ const Projects = () => {
                     ))}
                   </div>
                 </div>
-
-              
               </div>
               <div
-                  className="border border-danger "
+                className="border border-danger "
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Title
+                  textColor={"white"}
+                  text={"Other Projects"}
+                  animatable={true}
+                  style={{ textAlign: "center" }}
+                />
+                <div
                   style={{
                     display: "flex",
-                    flexDirection: "column",
-              
+                    gap: "20px",
+                    textAlign: "center",
+                    justifyContent: "center",
+                    alignContent: "center",
                   }}
                 >
-                   <Title
-                    textColor={"white"}
-                    text={"Other Projects"}
-                    animatable={true}
-                    style={{ textAlign: "center" }}
-                  />
-                  <div style={{
-                    display: "flex", gap:"20px", textAlign:"center", justifyContent: "center", alignContent: "center"
-                  }} >
                   {projectCat.map((project) => (
                     <P
                       key={project}
-                      textColor={"white"}
+                      textColor={myProjects === project ? "green" : "white"}
                       text={project}
                       animatable={true}
                       style={{
-                        cursor:"pointer"
+                        cursor: "pointer",
                       }}
+                      click={() => projectCategoryHandler(project)}
                     />
                   ))}
-                  </div>
-               
-                  
                 </div>
-              <ProjectCard />
+              </div>
+            
+                <ProjectCard projects={filteredProjects} />
+            
             </div>
           </Row>
         </Container>

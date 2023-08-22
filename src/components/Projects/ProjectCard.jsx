@@ -1,7 +1,7 @@
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { projects } from "./components/projects";
+
 
 import styled from "styled-components";
 import P from "../../utils/p/P";
@@ -10,7 +10,7 @@ import Title from "../../utils/title/Title";
 import { AiFillGithub, AiOutlineVideoCamera } from "react-icons/ai";
 
 
-const ProjectCard = () => {
+const ProjectCard = ({projects,}) => {
   const { successColor, whiteColor } = Colors();
   return (
     <div
