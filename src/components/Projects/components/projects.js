@@ -77,19 +77,21 @@ export const projects = [
     projectName: "Bash Landing Page",
   },
   {
-    id: 1,
-    technologies: "ReactJs | Typescript | TailwindCss",
+    id: 5,
+    technologies: "NextJs | Typescript | TailwindCss",
     type: "Front-End Projects",
     projectImages: [
-      "https://i.ibb.co/F3hq3xd/contact.png",
-      "https://res.cloudinary.com/bacf/image/upload/v1690999836/Era-tek/Imag_cover_18_xtmnmr.png",
-      "https://res.cloudinary.com/bacf/image/upload/v1689270036/Era-tek/Imag_cover_11_knkxhu.png",
+      "https://i.ibb.co/gMVFPTr/cara.png",
+      "https://i.ibb.co/s1tNw1H/carb.png",
+      "https://i.ibb.co/fDNSK7p/carc.png",
+      "https://i.ibb.co/5Fk3Yrp/card.png",
+      "https://i.ibb.co/PhMy4VL/care.png",
     ],
     description:
-      "This is a simple, easy-to-use, easy-to-navigate business landing page. Got inspiration from a local gym store in my community. It can be reused as landing page for any business",
-    github: "",
-    hostPlatform: "",
-    projectName: "Gym Landing Page",
+      "This is a simple, easy-to-use, easy-to-navigate car showcase app. Has search feature to filter cars by name, fuel type and other features. Responsive and sleek",
+    github: "https://github.com/tundenewcodes/car-showcase",
+    hostPlatform: "https://car-showcase-one-sigma.vercel.app/",
+    projectName: "Car Showcase App",
   },
 ];
 
