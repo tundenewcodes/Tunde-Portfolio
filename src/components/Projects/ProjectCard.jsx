@@ -1,7 +1,5 @@
-
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
 
 import styled from "styled-components";
 import P from "../../utils/p/P";
@@ -9,8 +7,7 @@ import { Colors } from "../../utils/colors/colors";
 import Title from "../../utils/title/Title";
 import { AiFillGithub, AiOutlineVideoCamera } from "react-icons/ai";
 
-
-const ProjectCard = ({projects,}) => {
+const ProjectCard = ({ projects }) => {
   const { successColor, whiteColor } = Colors();
   return (
     <div
@@ -25,7 +22,6 @@ const ProjectCard = ({projects,}) => {
         <CardWrapper>
           <div
             style={{
-             
               borderRadius: "50px",
               marginBottom: "50px ",
             }}
@@ -58,66 +54,65 @@ const ProjectCard = ({projects,}) => {
           </div>
 
           <Title
-           textColor={whiteColor}
-           text={item.projectName}
-           animatable={true}
-           style={{fontSize:"26px"}}
-           cName="p-0 m-0"
-          />
-          
-          <P
-           textColor={successColor}
-           text={item.technologies}
-           animatable={true}
-           style={{}}
-           cName="p-0 m-0"
-          
-          />
-          
-          <P
-           textColor={whiteColor}
-           text={item.description}
-           animatable={true}
-           style={{}}
-           
-          
+            textColor={whiteColor}
+            text={item.projectName}
+            animatable={true}
+            style={{ fontSize: "26px" }}
+            cName="p-0 m-0"
           />
 
-       
+          <P
+            textColor={successColor}
+            text={item.technologies}
+            animatable={true}
+            style={{}}
+            cName="p-0 m-0"
+          />
+
+          <P
+            textColor={whiteColor}
+            text={item.description}
+            animatable={true}
+            style={{}}
+          />
 
           <div className="d-flex justify-content-between align-items-center">
             <a
               target="_blank"
-              href="https://www.linkedin.com/company/era-tek/"
+              href={item.github}
               rel="noreferrer noopener"
               hrefLang="en-us"
             >
               <div
                 className="d-flex gap-3 align-items-center justify-content-center "
                 style={{
-                  gap: "15px"
+                  gap: "15px",
                 }}
               >
-               <AiFillGithub   style={{
-            background: "transparent",
-            height: "20px",
-            width: "20px",
-            color: "white",
-            cursor: "pointer",
-          }} />
-                <P textColor={whiteColor}
-           text={"Source Code"}
-           cName="p-0 m-0"
-           animatable={true}
-           style={{}} />
+                <AiFillGithub
+                  style={{
+                    background: "transparent",
+                    height: "20px",
+                    width: "20px",
+                    color: "white",
+                    cursor: "pointer",
+                  }}
+                />
+                <P
+                  textColor={whiteColor}
+                  text={"Source Code"}
+                  cName="p-0 m-0"
+                  animatable={true}
+                  style={{}}
+                />
               </div>
             </a>
             <a
               target="_blank"
-              href="https://www.linkedin.com/company/era-tek/"
+              href={item.hostPlatform}
               rel="noreferrer noopener"
               hrefLang="en-us"
-              style={{color:"white"}}
+              style={{ color: "white" }}
             >
               <div
                 className="d-flex gap-5 align-items-center"
@@ -125,19 +120,22 @@ const ProjectCard = ({projects,}) => {
                   gap: "15px",
                 }}
               >
-          <AiOutlineVideoCamera  style={{
-            background: "transparent",
-            height: "20px",
-            width: "20px",
-            color: "white",
-            cursor: "pointer",
-          }} />
-               <P 
-               textColor={whiteColor}
-           text={"Live Demo"}
-           cName="p-0 m-0"
-           animatable={true}
-           style={{}} />
+                <AiOutlineVideoCamera
+                  style={{
+                    background: "transparent",
+                    height: "20px",
+                    width: "20px",
+                    color: "white",
+                    cursor: "pointer",
+                  }}
+                />
+                <P
+                  textColor={whiteColor}
+                  text={"Live Demo"}
+                  cName="p-0 m-0"
+                  animatable={true}
+                  style={{}}
+                />
               </div>
             </a>
           </div>
