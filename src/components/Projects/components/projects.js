@@ -38,7 +38,8 @@ export const projects = [
     projectImages: [
       "https://i.ibb.co/SddjVzc/smc.png",
       "https://i.ibb.co/gvdFDjZ/sm.png",
-      "https://i.ibb.co/68xYkLG/dssw.png", "https://i.ibb.co/7VzMJ9q/smdc.png",
+      "https://i.ibb.co/68xYkLG/dssw.png",
+      "https://i.ibb.co/7VzMJ9q/smdc.png",
     ],
     description:
       "I built this social media like MERN app to get my hands dirty using the MERN stack. it's basic but has every functionalities working swiftly",
@@ -53,7 +54,8 @@ export const projects = [
     projectImages: [
       "https://i.ibb.co/ZcNc6HQ/fd.png",
       "https://i.ibb.co/4YMdpdW/dsx.png",
-      "https://i.ibb.co/0sPNNn0/fgxz.png","https://i.ibb.co/MsDgxnC/fdv.png",
+      "https://i.ibb.co/0sPNNn0/fgxz.png",
+      "https://i.ibb.co/MsDgxnC/fdv.png",
     ],
     description:
       "This project was inspired by my desire to use charts dependencies in my project. I'm glad at the way it turns out using Typescript ",
@@ -68,7 +70,8 @@ export const projects = [
     projectImages: [
       "https://i.ibb.co/bvmW10z/bsxs.png",
       "https://i.ibb.co/5nDzn03/bds.png",
-      "https://i.ibb.co/GWkCPS1/bx.png","https://i.ibb.co/rsR2WLH/dsws.png",
+      "https://i.ibb.co/GWkCPS1/bx.png",
+      "https://i.ibb.co/rsR2WLH/dsws.png",
     ],
     description:
       "This is one of first project learning React. A basic portfolio landing page with placeholder content. saw the design and tried to build it",
@@ -93,16 +96,51 @@ export const projects = [
     hostPlatform: "https://car-showcase-one-sigma.vercel.app/",
     projectName: "Car Showcase App",
   },
+  {
+    id: 6,
+    technologies: "MERN | Javascript | TailwindCss",
+    type: "Full-Stack Projects",
+    projectImages: [
+      "https://i.ibb.co/ZV1R9mt/producta.png",
+      "https://i.ibb.co/jVdZX8L/productb.png",
+      "https://i.ibb.co/ch44yTJ/productc.png",
+      "https://i.ibb.co/Wz6NM5H/productd.png",
+      "https://i.ibb.co/NNX4Prk/producte.png",
+    ],
+    description:
+      "This is a complete MERN ecommerce app with admin panel, payment integration, smooth interfaces, good authentication and authorization amongst many other features",
+    github: "https://github.com/tundenewcodes/admin-ecommerce-client",
+    hostPlatform: "https://mern-ecommerce-fqma.onrender.com/",
+    projectName: "MERN E-Commerce App",
+  },
+  {
+    id: 7,
+    technologies: "MERN | Javascript | TailwindCss",
+    type: "Full-Stack Projects",
+    projectImages: [
+      "https://i.ibb.co/mbR1065/fasta.png",
+      "https://i.ibb.co/NS5yxv1/fastb.png",
+      "https://i.ibb.co/9hj2Dp5/fastc.png",
+      "https://i.ibb.co/1KKNf0m/fastd.png",
+      "https://i.ibb.co/qxbwtJG/faste.png",
+      "https://i.ibb.co/f8hGXCg/fastf.png",
+    ],
+    description:
+      "This is an easy-to-use food delivery app, we have a rich collection of local, exotic and intercontinental foods. Mern App with authentication and great UI ",
+    github: "https://github.com/tundenewcodes/fast-food-delivery",
+    hostPlatform: "https://fastfooddeliveryapp.onrender.com/",
+    projectName: "Fast Food Delivery App",
+  },
 ];
 
 export const liveProject = [
   {
     id: 0,
     name: "HRTechish",
-    imgSrc:
-      "https://i.ibb.co/nfzBC5L/Logo.png",
+    imgSrc: "https://i.ibb.co/nfzBC5L/Logo.png",
     liveUrl: "https://hrtechish.com",
-    description: "An App developed for a startup company that engages communities of HR Tech Professionals, HR Tech employees and employers",
+    description:
+      "An App developed for a startup company that engages communities of HR Tech Professionals, HR Tech employees and employers",
     technologies: "ReactJs | Bootstrap |  Javascript",
   },
   {
@@ -111,33 +149,35 @@ export const liveProject = [
     imgSrc:
       "https://res.cloudinary.com/bacf/image/upload/v1687266199/Era-tek/Eratek_Logo_-_white_tgzimp.png",
     liveUrl: "https://www.eratek.io",
-    description: "A tech business consulting firm that empowers organizations through training and digital products",
+    description:
+      "A tech business consulting firm that empowers organizations through training and digital products",
     technologies: "ReactJs | Bootstrap |  Typescript",
   },
   {
     id: 2,
     name: "Uprise Equity",
-    imgSrc:
-      "https://i.ibb.co/4mBMsLM/logo-transparent.png",
+    imgSrc: "https://i.ibb.co/4mBMsLM/logo-transparent.png",
     liveUrl: "https://upriseequity.com",
-    description: "A system that fosters Multifamily investment for generational wealth ",
+    description:
+      "A system that fosters Multifamily investment for generational wealth ",
     technologies: "ReactJs | Bootstrap |  Javascript",
   },
   {
     id: 3,
     name: "EraConneckt",
-    imgSrc:
-      "https://i.ibb.co/m0YMpC3/dsg.png",
+    imgSrc: "https://i.ibb.co/m0YMpC3/dsg.png",
     liveUrl: "https://eraconneckt.com",
-    description: "A program that connects African tech talents to global opportunities",
+    description:
+      "A program that connects African tech talents to global opportunities",
     technologies: "ReactJs | Bootstrap |  Javascript",
   },
   {
     id: 4,
     name: "MakeUp by Labisi",
-    imgSrc:"https://i.ibb.co/s3Y0mMg/Logo.png",
+    imgSrc: "https://i.ibb.co/s3Y0mMg/Logo.png",
     liveUrl: "https://mubo-webapp.onrender.com",
-    description: "A program built for a Makeup Artistry, Beauty Influencing, Beauty Products Development Company",
+    description:
+      "A program built for a Makeup Artistry, Beauty Influencing, Beauty Products Development Company",
     technologies: "ReactJs | Bootstrap |  Typescript",
   },
 ];
