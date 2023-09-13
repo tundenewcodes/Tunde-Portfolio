@@ -131,6 +131,40 @@ export const projects = [
     hostPlatform: "https://fastfooddeliveryapp.onrender.com/",
     projectName: "Fast Food Delivery App",
   },
+  {
+    id: 8,
+    technologies: "MERN | Javascript | Scss",
+    type: "Full-Stack Projects",
+    projectImages: [
+      "https://i.ibb.co/X8dgz5n/bloodA.png",
+      "https://i.ibb.co/wh3w7fR/bloodb.png",
+      "https://i.ibb.co/02qghjh/bloodc.png",
+      "https://i.ibb.co/fMfNBhM/bloodd.png",
+      "https://i.ibb.co/BfWSGQ8/bloode.png",
+    ],
+    description:
+      "This blood bank app affords users to either donate/receive blood as an individual or as organizations. you can register on the app as a donor, hospital, or organization,  ",
+    github: "https://github.com/tundenewcodes/blood-bank-client",
+    hostPlatform: "https://mern-blood-bank-btv8.onrender.com/",
+    projectName: "Blood Bank App",
+  },
+  {
+    id: 9,
+    technologies: "MERN | Javascript | Scss",
+    type: "Full-Stack Projects",
+    projectImages: [
+      "https://i.ibb.co/WyFSKnx/pizzaa.png",
+      "https://i.ibb.co/g9bSVNG/pizzab.png",
+      "https://i.ibb.co/1mrZhH2/pizzac.png",
+      "https://i.ibb.co/T8FPH12/pizzad.png",
+      "https://i.ibb.co/jLJfVPD/pizzae.png",
+    ],
+    description:
+      "A simple, responsive, and smooth PIZZA shop MERN app with great features and functionalities",
+    github: "https://github.com/tundenewcodes/pizza-client",
+    hostPlatform: "https://pizza-mern-app.onrender.com/",
+    projectName: "MERN PIZZA SHOP APP",
+  },
 ];
 
 export const liveProject = [
